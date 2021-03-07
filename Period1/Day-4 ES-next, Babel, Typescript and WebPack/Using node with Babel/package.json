@@ -1,0 +1,19 @@
+{
+  "name": "using-node-with-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.5"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
